@@ -39,6 +39,7 @@ The exact technical skills required will largely depend on the selected LLM. One
 
 # Data
 All materials required to train the model, i.e., deFacto's training materials, are readily available. The format may need to be adjusted based on the LLM's requirements.
+
 ![image](https://github.com/K-3-LT/defacto_global_bu/assets/76082878/414b4acb-c22f-4622-8d0a-6c01f9d7926a)
 
 # Time/Resource Constraints
