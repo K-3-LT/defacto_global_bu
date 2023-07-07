@@ -1,8 +1,10 @@
 # Questrom MSBA Capstone Project - Summer 2023
 BA888 Team Defactor Global Repository
 
-# Organization Name
+# Organization
 deFacto Global, Inc.
+
+The deFacto Global Inc. is an industry-leading company specializing in comprehensive business modeling and planning capabilities integrated directly into Excel, Power BI, and web interfaces as part of their cutting-edge xP&A platform. With a strong focus on delivering enterprise-quality solutions, defacto Global Inc aims to provide organizations with the tools and technologies required to optimize their planning, analysis, and decision-making processes. By creating solutions for data collection, analysis, and simulations, deFacto Global Inc. explores in the future of business modeling and enables businesses to enhance their modeling accuracy, improve operational efficiency, and gain deeper insights into their financial and operational data. As a key player in the field of xP&A, deFacto Global Inc. strives to empower businesses with a robust and user-friendly platform that seamlessly integrates into their existing workflows, ultimately driving better planning outcomes and facilitating strategic growth.
 
 # Business Advisor
 Name: Bob Bedard
