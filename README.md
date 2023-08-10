@@ -28,6 +28,26 @@ Further enhancements to the bot's capabilities may be explored if time allows.
 5. User Interface Development (Important but not critical): Develop user interfaces as required.
 6. Bot Capability Expansion (Nice to have): Enhance the bot's capabilities to support other functional needs of users, including executing instructions.
 
+# Deploy
+## Overview
+
+**Pinecone Model.ipynb**: This notebook provides the necessary steps to create your Pinecone server and upload your material. Once you've uploaded your .docx file, you can leverage this notebook to save your material to the Pinecone server.
+
+**Query.ipynb**: In this notebook, you can fill in your OpenAI, Pinecone API, and Pinecone server environments. With these details filled in, you can interact with the GPT customer service bot. The bot will search the relevant material you uploaded to Pinecone and answer your questions based on that material.
+
+## Prerequisites
+* An account with `OpenAI`.
+* An account with `Pinecone`.
+* Your material in `.docx` format.
+
+## Setup
+1. Open `Pinecone Model.ipynb`:
+* Fill in your `OpenAI`, `Pinecone API`, and Pinecone server details.
+* Follow the steps to create a Pinecone server and upload your material.
+2. Open `Query.ipynb`:
+* Fill in your `OpenAI`, `Pinecone API`, and Pinecone server details.
+* Interact with the GPT customer service bot. Ask questions, and the bot will search the material you've uploaded to Pinecone to provide answers.
+
 # Significance
 This project holds significant importance for deFacto Global Inc. as LLMs are expected to have a massive impact on the software industry. We aim to harness the power of LLMs to perform a wide range of functions, including potentially replacing software. This project will allow us to assess the feasibility of using small, domain-specific LLMs tailored exclusively to our product.
 
@@ -39,8 +59,6 @@ The exact technical skills required will largely depend on the selected LLM. One
 
 # Data
 All materials required to train the model, i.e., deFacto's training materials, are readily available. The format may need to be adjusted based on the LLM's requirements.
-
-![image](https://github.com/K-3-LT/defacto_global_bu/assets/76082878/414b4acb-c22f-4622-8d0a-6c01f9d7926a)
 
 # Time/Resource Constraints
 Though there are no specific deadlines, this project is planned for the spring and summer. We are ready to start ASAP.
