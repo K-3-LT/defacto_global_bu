@@ -20,6 +20,9 @@ The objective of this project is to develop an AI-based bot utilizing a small La
 
 Further enhancements to the bot's capabilities may be explored if time allows.
 
+# Significance
+This project holds significant importance for deFacto Global Inc. as LLMs are expected to have a massive impact on the software industry. We aim to harness the power of LLMs to perform a wide range of functions, including potentially replacing software. This project will allow us to assess the feasibility of using small, domain-specific LLMs tailored exclusively to our product.
+
 # Objectives
 1. LLM Selection (Critical): Evaluate and select an LLM based on predefined selection criteria.
 2. Training Material Compilation (Critical): Compile deFacto's training materials in a format suitable for LLM training.
@@ -48,20 +51,34 @@ Further enhancements to the bot's capabilities may be explored if time allows.
 * Fill in your `OpenAI`, `Pinecone API`, and Pinecone server details.
 * Interact with the GPT customer service bot. Ask questions, and the bot will search the material you've uploaded to Pinecone to provide answers.
 
-# Significance
-This project holds significant importance for deFacto Global Inc. as LLMs are expected to have a massive impact on the software industry. We aim to harness the power of LLMs to perform a wide range of functions, including potentially replacing software. This project will allow us to assess the feasibility of using small, domain-specific LLMs tailored exclusively to our product.
-
 # Previous Work / Foreseen Challenges
-Our journey in this field has just begun as we've started to form our long-term strategy and approach. We've developed prototype applications and are currently collaborating with a team in Troy to advance our efforts.
+## Previous Work
+In our earlier attempts to build an efficient and responsive customer service bot, we explored various local deployment models. Among them:
 
-# Required or Desired Skills
-The exact technical skills required will largely depend on the selected LLM. One of our selection criteria will consider any required technical skills. Additionally, a summer intern who is a skilled developer will be working with the team to support any technical needs.
+* Dolly2: While Dolly2 offered a promising start, we found that its performance in our specific use case was not up to par. Its limitations in handling complex queries and providing concise answers led us to search for better alternatives.
+
+* GPT4All: Similarly, GPT4All, despite its widespread use, did not yield satisfactory results in our application. The smaller, locally deployed model had constraints in terms of processing power and versatility.
+
+Given the challenges we faced with these models, we decided to pivot our approach.
+
+## Current Approach
+Our present strategy is to leverage the GPT API. There are several reasons for this shift:
+
+* Maintenance and Usability: Using the GPT API simplifies the maintenance process. We no longer have to worry about updates, optimizations, and other technical intricacies that come with local deployments.
+
+* Flexibility: With the integration of Pinecone, we can easily upload and adjust our knowledge base. This means that our customer service bot can be updated with new information, making it more versatile and adaptive to changing needs.
+
+## Foreseen Challenges
+One of the challenges we anticipate as we continue to refine our bot is addressing the hallucination issue associated with the larger language models (LLMs) like GPT. Hallucination in the context of LLMs refers to the model generating information that may not be accurate or factual. As customer service accuracy is paramount, we will be focusing our efforts on:
+
+* Detection: Implementing mechanisms to detect when the model might be hallucinating.
+
+* Correction: Developing methods to correct or redirect the output in real-time, ensuring that the information provided is accurate and reliable.
+
+Our team is committed to overcoming these challenges to provide the best possible service to our users.
 
 # Data
 All materials required to train the model, i.e., deFacto's training materials, are readily available. The format may need to be adjusted based on the LLM's requirements.
 
-# Time/Resource Constraints
-Though there are no specific deadlines, this project is planned for the spring and summer. We are ready to start ASAP.
-
-# Alternative Resources
-We are working with several resources capable of providing any level of support required by the team.
+# License
+MIT
