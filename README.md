@@ -31,6 +31,31 @@ This project holds significant importance for deFacto Global Inc. as LLMs are ex
 5. User Interface Development (Important but not critical): Develop user interfaces as required.
 6. Bot Capability Expansion (Nice to have): Enhance the bot's capabilities to support other functional needs of users, including executing instructions.
 
+# Files Overview
+## Description
+
+This repository contains a collection of Jupyter notebooks, Excel files, and other resources used in the project related to the deFacto training material processing and querying using various methods like embeddings, Pinecone, and GPT models.
+
+## `Data_Extraction.ipynb`
+* **Purpose**: Extracts and reads the deFacto training material.
+* **Description**: This Colab notebook is responsible for scraping the training material and converting it into a `.txt` format. The text data is then easier to process for embedding purposes.
+
+## `GPT4_Model.ipynb`
+* **Purpose**: Contains the complete operational code for the project.
+* **Description**: Excluding the data extraction from the training material, this notebook encompasses the entire process. It involves creating a Pinecone index, embedding the deFacto training material as vectors, and storing them in the Pinecone database. The data can then be fetched using the ChatGPT API for answering queries. Additionally, it includes code for analysis.
+
+## `Query.ipynb`
+* **Purpose**: Demonstrates querying the data.
+* **Description**: A sample notebook that uses the GPT API to fetch relevant content from Pinecone and leverages GPT to generate answers based on the fetched content.
+
+## `Scraped Data.xlsx`
+* **Purpose**: Storage of updated training material.
+* **Description**: This Excel file contains the training material updates, sourced through web scraping.
+
+## `Training_material_visualization.ipynb`
+* **Purpose**: Visualization of the scraped training material.
+* **Description**: This notebook is dedicated to creating visual representations of the extracted training material, aiding in easier understanding and analysis.
+
 # Deploy
 ## Overview
 
